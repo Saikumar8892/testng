@@ -45,12 +45,14 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.sample"/>
 			<item value="com.testng"/>
 		</list>
 		<list key="name">
 			<item value="PracticeTestNG"/>
 		</list>
 		<list key="artifactId">
+			<item value="practice.testNG"/>
 			<item value="PracticeTestNG"/>
 		</list>
 		<list key="projectNameTemplate">

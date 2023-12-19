@@ -1,43 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-25T16:27:41 IST" name="test_suite" finished-at="2023-09-25T16:27:41 IST" duration-ms="107">
+  <suite started-at="2023-12-19T14:51:37 IST" name="Default suite" finished-at="2023-12-19T14:51:37 IST" duration-ms="74">
     <groups>
       <group name="Group B">
-        <method signature="Groups.testcase2()[pri:0, instance:com.javatpoint.Groups@6dbb137d]" name="testcase2" class="com.javatpoint.Groups"/>
-        <method signature="Groups.testcase2()[pri:0, instance:com.javatpoint.Groups@72a7c7e0]" name="testcase2" class="com.javatpoint.Groups"/>
-        <method signature="Groups.testcase3()[pri:0, instance:com.javatpoint.Groups@72a7c7e0]" name="testcase3" class="com.javatpoint.Groups"/>
+        <method signature="Groups.testcase2()[pri:0, instance:com.javatpoint.Groups@69b2283a]" name="testcase2" class="com.javatpoint.Groups"/>
+        <method signature="Groups.testcase3()[pri:0, instance:com.javatpoint.Groups@69b2283a]" name="testcase3" class="com.javatpoint.Groups"/>
       </group> <!-- Group B -->
       <group name="Group A">
-        <method signature="Groups.testcase1()[pri:0, instance:com.javatpoint.Groups@6dbb137d]" name="testcase1" class="com.javatpoint.Groups"/>
-        <method signature="Groups.testcase2()[pri:0, instance:com.javatpoint.Groups@6dbb137d]" name="testcase2" class="com.javatpoint.Groups"/>
-        <method signature="Groups.testcase2()[pri:0, instance:com.javatpoint.Groups@72a7c7e0]" name="testcase2" class="com.javatpoint.Groups"/>
+        <method signature="Groups.testcase1()[pri:0, instance:com.javatpoint.Groups@69b2283a]" name="testcase1" class="com.javatpoint.Groups"/>
+        <method signature="Groups.testcase2()[pri:0, instance:com.javatpoint.Groups@69b2283a]" name="testcase2" class="com.javatpoint.Groups"/>
       </group> <!-- Group A -->
     </groups>
-    <test started-at="2023-09-25T16:27:41 IST" name="Group A" finished-at="2023-09-25T16:27:41 IST" duration-ms="51">
+    <test started-at="2023-12-19T14:51:37 IST" name="Default test" finished-at="2023-12-19T14:51:37 IST" duration-ms="74">
       <class name="com.javatpoint.Groups">
-        <test-method signature="testcase1()[pri:0, instance:com.javatpoint.Groups@6dbb137d]" started-at="2023-09-25T16:27:41 IST" name="testcase1" finished-at="2023-09-25T16:27:41 IST" duration-ms="8" status="PASS">
+        <test-method signature="testcase1()[pri:0, instance:com.javatpoint.Groups@69b2283a]" started-at="2023-12-19T14:51:37 IST" name="testcase1" finished-at="2023-12-19T14:51:37 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase1 -->
-        <test-method signature="testcase2()[pri:0, instance:com.javatpoint.Groups@6dbb137d]" started-at="2023-09-25T16:27:41 IST" name="testcase2" finished-at="2023-09-25T16:27:41 IST" duration-ms="1" status="PASS">
+        <test-method signature="testcase2()[pri:0, instance:com.javatpoint.Groups@69b2283a]" started-at="2023-12-19T14:51:37 IST" name="testcase2" finished-at="2023-12-19T14:51:37 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase2 -->
-      </class> <!-- com.javatpoint.Groups -->
-    </test> <!-- Group A -->
-    <test started-at="2023-09-25T16:27:41 IST" name="Group B" finished-at="2023-09-25T16:27:41 IST" duration-ms="6">
-      <class name="com.javatpoint.Groups">
-        <test-method signature="testcase2()[pri:0, instance:com.javatpoint.Groups@72a7c7e0]" started-at="2023-09-25T16:27:41 IST" name="testcase2" finished-at="2023-09-25T16:27:41 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testcase2 -->
-        <test-method signature="testcase3()[pri:0, instance:com.javatpoint.Groups@72a7c7e0]" started-at="2023-09-25T16:27:41 IST" name="testcase3" finished-at="2023-09-25T16:27:41 IST" duration-ms="1" status="PASS">
+        <test-method signature="testcase3()[pri:0, instance:com.javatpoint.Groups@69b2283a]" started-at="2023-12-19T14:51:37 IST" name="testcase3" finished-at="2023-12-19T14:51:37 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase3 -->
       </class> <!-- com.javatpoint.Groups -->
-    </test> <!-- Group B -->
-  </suite> <!-- test_suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
