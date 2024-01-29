@@ -18,7 +18,7 @@ public class FirstTest {
 		driver.get("https://www.google.com/");
 		driver.findElement(By.name("q")).sendKeys("java javatpoint", Keys.ENTER);
 		System.out.println(driver.getTitle());
-		Thread.sleep(3000);
+		//Thread.sleep(3000);
 		driver.quit();
 		
 	}
